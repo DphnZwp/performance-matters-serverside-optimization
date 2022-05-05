@@ -7,7 +7,9 @@ Drie server-side performance optimalisaties toepassen op de CTC website die ik h
 ## Serverside Performance Optimalisatie
 Beschrijf de website die je hebt geoptimaliseerd, voeg screenshots van de performance audit voor en na het uitvoeren en beschrijf de verbeterde performance. Met andere woorden, welke winst heb je behaald door dit allemaal te doen! Voeg de url en een screenshot van de geoptimaliseerde website toe.
 
-### Url
+Het duurt 8.9 min voordat de website stopt met laden. De CTC website die ik in sprint 6 had gemaakt is een one pager. Daarom wil ik de website opsplitten in aparte pagina's. Zo kunnen javascript bestanden ook verwezen worden naar specifieke pagina's.
+
+### Url van de website
 [https://daphnecodingthecurbs.student.fdnd.nl/](https://daphnecodingthecurbs.student.fdnd.nl/)
 
 ![Schermafbeelding 2022-05-05 172915](https://user-images.githubusercontent.com/69635977/166958643-a3581901-3089-4275-bba6-fdb6efcbbb7c.png)
