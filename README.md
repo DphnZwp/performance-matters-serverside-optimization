@@ -4,7 +4,7 @@
 Geef je project een titel en schrijf in één zin wat het is.
 Drie server-side performance optimalisaties toepassen op de CTC website die ik had gemaakt in sprint 6.
 
-### One pager naar een zeven pagina's website
+### One pager naar een website met zeven pagina's
 De CTC website die ik in sprint 6 had gemaakt is een one pager. Daarom wil ik de website opsplitten in aparte pagina's. Zo kunnen javascript bestanden ook verwezen worden naar specifieke pagina's.
 
 ## Serverside Performance Optimalisatie
