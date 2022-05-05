@@ -11,7 +11,7 @@ De CTC website die ik in sprint 6 had gemaakt is een one pager. Daarom wil ik de
 Beschrijf de website die je hebt geoptimaliseerd, voeg screenshots van de performance audit voor en na het uitvoeren en beschrijf de verbeterde performance. Met andere woorden, welke winst heb je behaald door dit allemaal te doen! Voeg de url en een screenshot van de geoptimaliseerde website toe.
 
 ### Netwerk test
-Het duurt 8.9 min voordat de website stopt met laden. 
+Het duurt 8.9 minuten voordat de website stopt met laden.
 
 ### Url van de website
 [https://daphnecodingthecurbs.student.fdnd.nl/](https://daphnecodingthecurbs.student.fdnd.nl/)
