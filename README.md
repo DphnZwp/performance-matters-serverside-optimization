@@ -4,10 +4,14 @@
 Geef je project een titel en schrijf in één zin wat het is.
 Drie server-side performance optimalisaties toepassen op de CTC website die ik had gemaakt in sprint 6.
 
+### One pager naar een zeven pagina's website
+De CTC website die ik in sprint 6 had gemaakt is een one pager. Daarom wil ik de website opsplitten in aparte pagina's. Zo kunnen javascript bestanden ook verwezen worden naar specifieke pagina's.
+
 ## Serverside Performance Optimalisatie
 Beschrijf de website die je hebt geoptimaliseerd, voeg screenshots van de performance audit voor en na het uitvoeren en beschrijf de verbeterde performance. Met andere woorden, welke winst heb je behaald door dit allemaal te doen! Voeg de url en een screenshot van de geoptimaliseerde website toe.
 
-Het duurt 8.9 min voordat de website stopt met laden. De CTC website die ik in sprint 6 had gemaakt is een one pager. Daarom wil ik de website opsplitten in aparte pagina's. Zo kunnen javascript bestanden ook verwezen worden naar specifieke pagina's.
+### Netwerk test
+Het duurt 8.9 min voordat de website stopt met laden. 
 
 ### Url van de website
 [https://daphnecodingthecurbs.student.fdnd.nl/](https://daphnecodingthecurbs.student.fdnd.nl/)
