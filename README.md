@@ -13,8 +13,6 @@ Voor deze deeltaak heb ik de smartzone pagina van CTC geoptimaliseerd. De websit
 
 ![Schermafbeelding 2022-05-09 125727](https://user-images.githubusercontent.com/69635977/167396539-ae597e97-3fd0-4baf-a014-7c11a2e8459c.png)
 
-### Network test
-
 ### Na het uitvoeren
 
 ### Minifying
