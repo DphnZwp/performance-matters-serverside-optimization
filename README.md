@@ -14,8 +14,6 @@ De website heeft een performance van 77.
 
 ### Na het uitvoeren
 
-### Na het uitvoeren
-
 ### Minifying
 Beschrijf welke bestanden je _minified_ hebt en waarom je dat gedaan hebt. Als je er bewust voor kiest bepaalde bestanden niet te minify-en dan beschrijf je ook waarom je dat niet gedaan hebt.
 
