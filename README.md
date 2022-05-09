@@ -1,7 +1,6 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # 🚐 Server-side optimalisatie voor de CTC website van sprint 6
-Geef je project een titel en schrijf in één zin wat het is.
 Drie server-side performance optimalisaties toepassen op de smart zone pagina van CTC.
 
 ## Serverside Performance Optimalisatie
@@ -10,7 +9,7 @@ Beschrijf de website die je hebt geoptimaliseerd, voeg screenshots van de perfor
 ### Voor het uitvoeren
 De website heeft een performance van 77.
 
-![Schermafbeelding 2022-05-09 121853](https://user-images.githubusercontent.com/69635977/167390941-7ad3d2d5-e5fe-4ddd-ba3b-e3fc123264d5.png)
+![Google chrome Lighthouse performance van 77](https://user-images.githubusercontent.com/69635977/167390941-7ad3d2d5-e5fe-4ddd-ba3b-e3fc123264d5.png)
 
 ### Na het uitvoeren
 
