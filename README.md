@@ -8,7 +8,11 @@ Drie server-side performance optimalisaties toepassen op de smart zone pagina va
 Beschrijf de website die je hebt geoptimaliseerd, voeg screenshots van de performance audit voor en na het uitvoeren en beschrijf de verbeterde performance. Met andere woorden, welke winst heb je behaald door dit allemaal te doen! Voeg de url en een screenshot van de geoptimaliseerde website toe.
 
 ### Voor het uitvoeren
+De website heeft een performance van 77.
+
 ![Schermafbeelding 2022-05-09 121853](https://user-images.githubusercontent.com/69635977/167390941-7ad3d2d5-e5fe-4ddd-ba3b-e3fc123264d5.png)
+
+### Na het uitvoeren
 
 ### Na het uitvoeren
 
