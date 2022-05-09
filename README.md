@@ -7,9 +7,13 @@ Drie server-side performance optimalisaties toepassen op de smart zone pagina va
 Beschrijf de website die je hebt geoptimaliseerd, voeg screenshots van de performance audit voor en na het uitvoeren en beschrijf de verbeterde performance. Met andere woorden, welke winst heb je behaald door dit allemaal te doen! Voeg de url en een screenshot van de geoptimaliseerde website toe.
 
 ### Voor het uitvoeren
-De website heeft een performance van 77.
+Voor deze deeltaak heb ik de smartzone pagina van CTC geoptimaliseerd. De website was toen gemaakt met Node.js en Express. Hiervoor heb ik een performance audit gemaakt met behulp van Lighthouse en de Network tab van Google Chrome.
 
 ![Google chrome Lighthouse performance van 77](https://user-images.githubusercontent.com/69635977/167390941-7ad3d2d5-e5fe-4ddd-ba3b-e3fc123264d5.png)
+
+![Schermafbeelding 2022-05-09 125727](https://user-images.githubusercontent.com/69635977/167396539-ae597e97-3fd0-4baf-a014-7c11a2e8459c.png)
+
+### Network test
 
 ### Na het uitvoeren
 
