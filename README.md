@@ -2,21 +2,10 @@
 
 # 🚐 Server-side optimalisatie voor de CTC website van sprint 6
 Geef je project een titel en schrijf in één zin wat het is.
-Drie server-side performance optimalisaties toepassen op de CTC website die ik had gemaakt in sprint 6.
-
-### One pager naar een website met zeven pagina's
-De CTC website die ik in sprint 6 had gemaakt is een one pager. Daarom wil ik de website opsplitten in aparte pagina's. Zo kunnen javascript bestanden ook verwezen worden naar specifieke pagina's.
+Drie server-side performance optimalisaties toepassen op de CTC website.
 
 ## Serverside Performance Optimalisatie
 Beschrijf de website die je hebt geoptimaliseerd, voeg screenshots van de performance audit voor en na het uitvoeren en beschrijf de verbeterde performance. Met andere woorden, welke winst heb je behaald door dit allemaal te doen! Voeg de url en een screenshot van de geoptimaliseerde website toe.
-
-### Netwerk test
-Het duurt 8.9 minuten voordat de website stopt met laden.
-
-### Url van de website
-[https://daphnecodingthecurbs.student.fdnd.nl/](https://daphnecodingthecurbs.student.fdnd.nl/)
-
-![Schermafbeelding 2022-05-05 172915](https://user-images.githubusercontent.com/69635977/166958643-a3581901-3089-4275-bba6-fdb6efcbbb7c.png)
 
 ### Minifying
 Beschrijf welke bestanden je _minified_ hebt en waarom je dat gedaan hebt. Als je er bewust voor kiest bepaalde bestanden niet te minify-en dan beschrijf je ook waarom je dat niet gedaan hebt.
