@@ -37,7 +37,7 @@ Beschrijf de door jou gebruikte bronnen om bovenstaande stappen uit te voeren.
 - [https://github.com/cssnano/cssnano](https://github.com/cssnano/cssnano)
 - [https://regbrain.com/article/cache-headers-express-js](https://regbrain.com/article/cache-headers-express-js)
 - [https://jakearchibald.com/2016/caching-best-practices/](https://jakearchibald.com/2016/caching-best-practices/)
-- 
+- [http://expressjs.com/en/resources/middleware/compression.html](http://expressjs.com/en/resources/middleware/compression.html)
 
 ## Licentie
 
