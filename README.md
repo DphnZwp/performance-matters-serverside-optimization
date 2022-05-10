@@ -19,13 +19,15 @@ Voor deze deeltaak heb ik de smartzone pagina van CTC geoptimaliseerd. De websit
 Beschrijf welke bestanden je _minified_ hebt en waarom je dat gedaan hebt. Als je er bewust voor kiest bepaalde bestanden niet te minify-en dan beschrijf je ook waarom je dat niet gedaan hebt.
 
 ### Code splitting
-Beschrijf welke front-end javascript bestanden je gesplit hebt en waarom je dat gedaan hebt. Schrijf vanuit het idee van daadwerkelijk gebruikte code per pagina.
+Ik heb geen client-side javascript. Dus dit is niet van toepassing.
 
 ### Caching
 Beschrijf welke caching opties je gekozen hebt en waarom je dat op deze manier doet.
+Ik zet 
 
 ### Compressie
 Beschrijf hoe je compressie hebt ingezet en waarom je die keuze hebt gemaakt.
+Compressie in Node.js en Express vermindert de downloadbare hoeveelheid data die aan gebruikers zijn geserveerd. Door het gebruik van deze compressie kunnen we de performance van de website verbeteren, omdat onze payloadgrootte drastisch wordt verminderd. 
 
 ## Bronnen
 Beschrijf de door jou gebruikte bronnen om bovenstaande stappen uit te voeren.
