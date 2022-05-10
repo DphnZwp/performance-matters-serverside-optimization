@@ -17,6 +17,7 @@ Voor deze deeltaak heb ik de smartzone pagina van CTC geoptimaliseerd. De websit
 
 ### Minifying
 *Om de CSS codegrootte te verminderen en de website sneller te laten laden.*
+
 Ik heb mijn CSS geminified door gebruik te maken van postcss met cssnano en autoprefix.
 
 ### Code splitting
