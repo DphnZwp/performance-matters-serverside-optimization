@@ -16,7 +16,6 @@ Voor deze deeltaak heb ik de smartzone pagina van CTC geoptimaliseerd. De websit
 ### Na het uitvoeren
 
 ### Minifying
-Beschrijf welke bestanden je _minified_ hebt en waarom je dat gedaan hebt. Als je er bewust voor kiest bepaalde bestanden niet te minify-en dan beschrijf je ook waarom je dat niet gedaan hebt.
 *Om de CSS codegrootte te verminderen en de website sneller te laten laden.*
 Ik heb mijn CSS geminified door gebruik te maken van postcss met cssnano en autoprefix.
 
