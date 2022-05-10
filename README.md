@@ -26,8 +26,9 @@ Beschrijf welke caching opties je gekozen hebt en waarom je dat op deze manier d
 Ik zet 
 
 ### Compressie
-Beschrijf hoe je compressie hebt ingezet en waarom je die keuze hebt gemaakt.
-Compressie in Node.js en Express vermindert de downloadbare hoeveelheid data die aan gebruikers zijn geserveerd. Door het gebruik van deze compressie kunnen we de performance van de website verbeteren, omdat onze payloadgrootte drastisch wordt verminderd. 
+*Compressie in Node.js en Express vermindert de downloadbare hoeveelheid data die aan gebruikers zijn geserveerd. Door het gebruik van deze compressie is de JSON-reactie en andere statische bestanden reacties kleiner.*
+
+Ik heb npm compression package gebruikt, omdat het makkelijk is om te gebruiken.
 
 ## Bronnen
 Beschrijf de door jou gebruikte bronnen om bovenstaande stappen uit te voeren.
