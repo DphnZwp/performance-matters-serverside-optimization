@@ -16,23 +16,29 @@ Voor deze deeltaak heb ik de smartzone pagina van CTC geoptimaliseerd. De websit
 ### Na het uitvoeren
 
 ### Minifying
-Beschrijf welke bestanden je _minified_ hebt en waarom je dat gedaan hebt. Als je er bewust voor kiest bepaalde bestanden niet te minify-en dan beschrijf je ook waarom je dat niet gedaan hebt.
 *Om de CSS codegrootte te verminderen en de website sneller te laten laden.*
+
+Ik heb mijn CSS geminified door gebruik te maken van postcss met cssnano en autoprefix.
 
 ### Code splitting
 Ik heb geen client-side javascript. Dus dit is niet van toepassing.
 
 ### Caching
 Beschrijf welke caching opties je gekozen hebt en waarom je dat op deze manier doet.
-Ik zet 
+De smart zones pagina heeft alleen test data, dus het heeft geen lange caching tijd nodig. Daarom heb ik de catching tijd op 1 dag gezet voor
 
 ### Compressie
 *Compressie in Node.js en Express vermindert de downloadbare hoeveelheid data die aan gebruikers zijn geserveerd. Door het gebruik van deze compressie is de JSON-reactie en andere statische bestanden reacties kleiner.*
 
-Ik heb npm compression package gebruikt, omdat het makkelijk is om te gebruiken.
+Ik heb npm compression package gebruikt. Het makkelijk is om te gebruiken, omdat het twee regels code heeft.
 
 ## Bronnen
 Beschrijf de door jou gebruikte bronnen om bovenstaande stappen uit te voeren.
+- [https://postcss.org/](https://postcss.org/)
+- [https://github.com/cssnano/cssnano](https://github.com/cssnano/cssnano)
+- [https://regbrain.com/article/cache-headers-express-js](https://regbrain.com/article/cache-headers-express-js)
+- [https://jakearchibald.com/2016/caching-best-practices/](https://jakearchibald.com/2016/caching-best-practices/)
+- [http://expressjs.com/en/resources/middleware/compression.html](http://expressjs.com/en/resources/middleware/compression.html)
 
 ## Licentie
 
