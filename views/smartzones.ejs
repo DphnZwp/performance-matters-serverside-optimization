@@ -3,7 +3,7 @@
 <section id="smartzones">
   <h1><%= title %></h1>
   <p>
-    Hier is een overzicht met smartzones. Je kan ook smartzones sorteren
+    Hier is een overzicht met alle smartzones. Je kan ook smartzones sorteren
     op alle smartzones, naam, functie, stad en locatie.
   </p>
 </section>
@@ -45,61 +45,56 @@
 </section>
 
 <section class="tables">
-  <% 
-  smartzones
-    .filter((smartzone) => {
-      return smartzone.town === 'Utrecht'
-    })
-    .map((smartzone) => { %>
-      <table>
-        <tbody>
-        <tr class="background-image">
-					<th><%- smartzone.name %></th>
-        </tr>
-        <tr>
-					<th>Stad</th>
-        </tr>
-        <tr>
-					<td><%- smartzone.town %></td>
-        </tr>
-        <tr>
-					<th>Locatie</th>
-        </tr>
-        <tr>
-					<td><%- smartzone.location %></td>
-        </tr>
-        <tr>
-					<th>functie</th>
-        </tr>
-        <tr>
-					<td><%- smartzone.function %></td>
-        </tr>
-				<tr>
-					<th>Tijdstip</th>
-				</tr>
-				<tr>
-					<td><%- smartzone.time %></td>
-				</tr>
-				<tr>
-					<th>Grootte (plek)</th>
-				</tr>
-				<tr>
-					<td><%- smartzone.size %></td>
-				</tr>
-				<tr>
-					<th>Gebruik (%)</th>
-				</tr>
-				<tr>
-					<td><%- smartzone.utilization %></td>
-				</tr>
-				<tr>
-					<th>Omschrijving</th>
-				</tr>
-				<tr>
-					<td><%- smartzone.description %></td>
-				</tr>
-      </tbody></table>
-      <img class="image-table" src="<%- smartzone.image %>" alt="Google maps <%- smartzone.location %>">
+  <% smartzones.forEach((smartzone) => { %>
+    <table>
+      <tbody>
+      <tr class="background-image">
+        <th><%- smartzone.name %></th>
+      </tr>
+      <tr>
+        <th>Stad</th>
+      </tr>
+      <tr>
+        <td><%- smartzone.town %></td>
+      </tr>
+      <tr>
+        <th>Locatie</th>
+      </tr>
+      <tr>
+        <td><%- smartzone.location %></td>
+      </tr>
+      <tr>
+        <th>functie</th>
+      </tr>
+      <tr>
+        <td><%- smartzone.function %></td>
+      </tr>
+      <tr>
+        <th>Tijdstip</th>
+      </tr>
+      <tr>
+        <td><%- smartzone.time %></td>
+      </tr>
+      <tr>
+        <th>Grootte (plek)</th>
+      </tr>
+      <tr>
+        <td><%- smartzone.size %></td>
+      </tr>
+      <tr>
+        <th>Gebruik (%)</th>
+      </tr>
+      <tr>
+        <td><%- smartzone.utilization %></td>
+      </tr>
+      <tr>
+        <th>Omschrijving</th>
+      </tr>
+      <tr>
+        <td><%- smartzone.description %></td>
+      </tr>
+    </tbody></table>
+    <img class="image-table" src="<%- smartzone.image %>" alt="Google maps afbeelding">
   <% }) %>
 </section>
 
