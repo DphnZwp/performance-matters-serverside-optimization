@@ -28,8 +28,7 @@ Ik heb mijn CSS geminified door gebruik te maken van postcss met cssnano en auto
 Ik heb geen client-side javascript. Dus dit is niet van toepassing.
 
 ### Caching
-Beschrijf welke caching opties je gekozen hebt en waarom je dat op deze manier doet.
-De smart zones pagina heeft alleen test data, dus het heeft geen lange caching tijd nodig. Daarom heb ik de catching tijd op 1 dag gezet voor
+De smart zones pagina heeft alleen test data, dus het heeft geen korte caching tijd nodig. Daarom heb ik de catching tijd op 1 dag gezet.
 
 ### Compressie
 *Compressie in Node.js en Express vermindert de downloadbare hoeveelheid data die aan gebruikers zijn geserveerd. Door het gebruik van deze compressie is de JSON-reactie en andere statische bestanden reacties kleiner.*
