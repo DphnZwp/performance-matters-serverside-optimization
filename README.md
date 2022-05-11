@@ -25,9 +25,13 @@ De performance van de is nu 90. De finish en load tijd van de website is nog ste
 Ik heb mijn CSS geminified door gebruik te maken van postcss met cssnano en autoprefix.
 
 ### Code splitting
+*JavaScript bestanden voor aparte HTML bestanden.*
+
 Ik heb geen client-side javascript. Dus dit is niet van toepassing.
 
 ### Caching
+*De juiste caching levert enorme performance voordelen op, bespaart bandbreedte en verlaagt de serverkosten.*
+
 De smart zones pagina heeft alleen test data, dus het heeft geen korte caching tijd nodig. Daarom heb ik de catching tijd op 1 dag gezet.
 
 ### Compressie
