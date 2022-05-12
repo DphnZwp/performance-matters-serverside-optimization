@@ -8,7 +8,7 @@ const url = 'https://codingthecurbs.api.fdnd.nl/v1/smartzone'
 const bodyParser = require('body-parser')
 const urlencodedParser = bodyParser.urlencoded({extended:false})
 // Compression variable
-// const compression = require('compression')
+const compression = require('compression')
 
 // Serve public files
 app.use(express.static('public'))
@@ -18,15 +18,11 @@ app.set('view engine', 'ejs')
 app.set('views', 'views')
 
 // compress all responses
-// app.use(compression())
+app.use(compression())
 
 // Stel caching headers in
-app.use(function (req, res, next) {
-  if (req.method == 'GET') {
-    res.set('Cache-control', 'public, max-age=86400')
-  } else {
-    res.set('Cache-control', `no-store`)
-  }
+app.use((req, res, next) => {
+  res.set('Cache-control', 'public, max-age=86400')
   next()
 })
 
